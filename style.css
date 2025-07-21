@@ -171,3 +171,20 @@ body.dark .project-card {
 body.dark .contact-icon {
   color: #ffa500;
 }
+#darkModeToggle {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: transform 0.2s ease;
+}
+
+#darkModeToggle:hover {
+  transform: scale(1.2);
+}
+
+body.dark #darkModeToggle {
+  color: #ffa500;
+}
