@@ -191,3 +191,11 @@ body.dark #darkModeToggle {
 html {
   scroll-behavior: smooth;
 }
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
