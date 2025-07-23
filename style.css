@@ -188,3 +188,6 @@ body.dark .contact-icon {
 body.dark #darkModeToggle {
   color: #ffa500;
 }
+html {
+  scroll-behavior: smooth;
+}

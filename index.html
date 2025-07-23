@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -32,12 +33,12 @@
       <h1>Hi, I'm Tebogo Mohutsioa</h1>
       <p>Aspiring Software Developer | Final-Year BSc IT Student</p>
       <a href="#projects" class="cta">View My Work</a>
-      <a href="assets/Tebogo_Mohutsioa_Updated_CV.pdf" class="cta" download> Download Resume</a>
+      <a href="assets/Tebogo_Mohutsioa_CV.pdf" class="cta" download> Download Resume</a>
     </div>
   </section>
 
   <!-- About Me Section -->
-<section id="about" class="section">
+<section id="about" class="section" data-aos="fade-up">
   <div class="container">
     <h2>About Me</h2>
     <p>
@@ -107,7 +108,7 @@
     <div class="project-grid">
 
       <!-- Project 1 -->
-      <div class="project-card">
+      <div class="project-card" data-aos="zoom-in">
         <h3>Tutor Booking Website</h3>
         <p>Developed a web-based tutor scheduling platform using C# and ASP.NET. Implemented SQL database and SDLC principles.</p>
         <p><strong>Tech:</strong> C#, ASP.NET, SQL</p>
@@ -143,16 +144,20 @@
       <a href="mailto:tebogomcdonald443@gmail.com" class="contact-icon" title="Email">
         <i class="fas fa-envelope"></i>
       </a>
-      <a href="https://github.com/your-github" class="contact-icon" target="_blank" title="GitHub">
+      <a href="https://github.com/McD-04" class="contact-icon" target="_blank" title="GitHub">
         <i class="fab fa-github"></i>
       </a>
-      <a href="https://linkedin.com/in/your-linkedin" class="contact-icon" target="_blank" title="LinkedIn">
+      <a href="https://www.linkedin.com/in/tebogo-mohutsioa-1517b5365" class="contact-icon" target="_blank" title="LinkedIn">
         <i class="fab fa-linkedin"></i>
       </a>
     </div>
   </div>
 </section>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 
 </body>
