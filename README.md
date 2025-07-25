@@ -4,9 +4,9 @@ Welcome to my personal portfolio website!
 
 This site showcases my background, skills, projects, and education — designed to present myself professionally to potential employers, collaborators, and mentors.
 
-## 🌐 Live Demo
+## Live Demo
 
-🔗 [View Portfolio on GitHub Pages](https://McD-04.github.io/tebogo-portfolio/)
+ [View Portfolio on GitHub Pages](https://McD-04.github.io/tebogo-portfolio/)
 
 
 ---
